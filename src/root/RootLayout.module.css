@@ -1,0 +1,25 @@
+.logo {
+  color: var(--heading-color);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 20px;
+}
+.themeBtn {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  cursor: pointer;
+  padding: 7px 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 10px;
+}
+.loadingImg {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5%;
+}

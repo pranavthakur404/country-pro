@@ -1,0 +1,27 @@
+.card {
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0px 5px 7px 0px var(--shadow);
+  border-radius: 15px;
+}
+.card img {
+  width: 100%;
+  object-fit: cover;
+}
+.details {
+  padding: 15px;
+}
+.name {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+.details p {
+  font-size: 0.8rem;
+}
+.details p span {
+  font-weight: 800;
+}
+.cardWrapper {
+  text-decoration: none;
+  color: var(--font-color);
+}
