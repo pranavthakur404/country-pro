@@ -6,6 +6,7 @@
   justify-content: space-between;
   align-items: center;
   padding-block: 20px;
+  gap: 10px;
 }
 .themeBtn {
   background-color: var(--button-bg);
@@ -22,4 +23,15 @@
   display: block;
   margin: 0 auto;
   margin-top: 5%;
+}
+
+@media only screen and (max-width: 379px) {
+  .logo {
+    font-size: 1.2rem;
+  }
+  .themeBtn {
+    padding: 4px 7px;
+    font-size: 0.8rem;
+    gap: 2px;
+  }
 }

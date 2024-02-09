@@ -60,7 +60,7 @@ function RootLayout() {
       <main>
         <Container>
           {location.state == "loading" ? (
-            <img src={spinner} alt="loading" />
+            <img src={spinner} className={styles.loadingImg} alt="loading" />
           ) : (
             <Outlet />
           )}
